@@ -12,6 +12,8 @@ end
 @word = getWord()
 puts @word
 @guess = "_" * @word.length
+
+
 # Prompts user for an input and calls the checkLetter function
 def getInput
     puts "Guess a letter:"
@@ -34,12 +36,8 @@ def displayLetter(str)
     puts "_" * str.length
 end
 
-# puts getWord
-#displayLetter(getWord)
 
-
-
+# Run until all letters are guessed
 while @guess.include?("_") do
     getInput
 end
-puts @guess
