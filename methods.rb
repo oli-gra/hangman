@@ -18,7 +18,6 @@ def checkLetter(letter)
 end
 
 def displayLetter(str)
-    #puts str.length
     underscore = "_"
     puts "_" * str.length
 end
