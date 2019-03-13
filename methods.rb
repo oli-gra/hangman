@@ -37,4 +37,9 @@ end
 # puts getWord
 #displayLetter(getWord)
 
-getInput
+
+
+while @guess.include?("_") do
+    getInput
+end
+puts @guess
